@@ -1,0 +1,23 @@
+.gamearea {
+  position: relative;
+  overflow: hidden;
+  background: lightgreen;
+  border: 1px solid black;
+  border-radius: 3rem;
+  width: 70rem;
+  height: 40rem;
+  margin: 1rem auto;
+}
+
+.gamelayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  user-select: none;
+  pointer-events: none;
+}
+
+.layer-movement {
+  pointer-events: initial;
+}
